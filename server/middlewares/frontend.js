@@ -5,11 +5,10 @@ const express = require('express');
 const compression = require('compression');
 
 // Dev middleware
-const addDevMiddlewares = (app, webpackConfigFactory) => {
+const addDevMiddlewares = (app, webpackConfig) => {
     const webpack = require('webpack');
     const webpackDevMiddleware = require('webpack-dev-middleware');
     const webpackHotMiddleware = require('webpack-hot-middleware');
-    const webpackConfig = webpackConfigFactory();
     const compiler = webpack(webpackConfig);
     const middleware = webpackDevMiddleware(compiler, {
         noInfo: true,

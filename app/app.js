@@ -9,7 +9,7 @@ import createHistory from 'history/createBrowserHistory';
 
 // We need to import our css files in javascript because that's how webpack works
 // These will be extracted to a separate file in production
-import 'sass/bundles/styles.scss';
+import 'sass/style.scss';
 
 // Import root app
 import App from 'containers/App';

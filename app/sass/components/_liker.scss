@@ -1,0 +1,13 @@
+
+.like , .fa-thumbs-up:hover, .fa-thumbs-up:active {
+    color: blue !important;
+}
+
+.unlike, .fa-thumbs-down:hover, .fa-thumbs-down:active {
+    color: red !important;
+}
+
+.btn-icon {
+    border: none;
+    background-color: transparent;
+}

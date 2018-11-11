@@ -11,6 +11,12 @@ import { routerReducer } from 'react-router-redux';
 // ======================================================================================
 
 import appReducer from 'containers/App/reducer';
+import homepageReducer from 'containers/Homepage/reducer';
+import loginReducer from 'containers/Login/reducer';
+import myQuestionsReducer from 'containers/MyQuestions/reducer';
+import profileReducer from 'containers/Profile/reducer';
+import questionsReducer from 'containers/Questions/reducer';
+import registrationReducer from 'containers/Registration/reducer';
 
 // ======================================================================================
 // Global application state
@@ -18,7 +24,13 @@ import appReducer from 'containers/App/reducer';
 
 export default function createReducer() {
     return combineReducers({
+        router: routerReducer,
         app: appReducer,
-        router: routerReducer
+        homepage: homepageReducer,
+        login: loginReducer,
+        myQuestions: myQuestionsReducer,
+        profile: profileReducer,
+        questions: questionsReducer,
+        registration: registrationReducer
     });
 }

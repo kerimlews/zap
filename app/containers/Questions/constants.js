@@ -1,0 +1,13 @@
+export const FETCH_ALL_QUESTIONS = 'containers/Questions/FETCH_ALL_QUESTIONS';
+export const FETCH_ALL_QUESTIONS_SUCCESS = 'containers/Questions/FETCH_ALL_QUESTIONS_SUCCESS';
+export const FETCH_ALL_QUESTIONS_FAIL = 'containers/Questions/FETCH_ALL_QUESTIONS_FAIL';
+export const FETCH_ALL_ANSWERS = 'containers/Questions/FETCH_ALL_ANSWERS';
+export const FETCH_ALL_ANSWERS_SUCCESS = 'containers/Questions/FETCH_ALL_ANSWERS_SUCCESS';
+export const FETCH_ALL_ANSWERS_FAIL = 'containers/Questions/FETCH_ALL_ANSWERS_FAIL';
+export const SAVE_ANSWER = 'containers/Questions/SAVE_ANSWER';
+export const SAVE_ANSWER_FAIL = 'containers/Questions/SAVE_ANSWER_FAIL';
+export const SAVE_ANSWER_SUCCESS = 'containers/Questions/SAVE_ANSWER_SUCCESS';
+export const CHNAGE_LIKE_ANSWER = 'containers/Questions/CHNAGE_LIKE_ANSWER';
+export const CHNAGE_LIKE_ANSWER_FAIL = 'containers/Questions/CHNAGE_LIKE_ANSWER_FAIL';
+export const CHNAGE_LIKE_QUESTION = 'containers/Questions/CHNAGE_LIKE_QUESTION';
+export const CHNAGE_LIKE_QUESTION_FAIL = 'containers/Questions/CHNAGE_LIKE_QUESTIONR_FAIL';
